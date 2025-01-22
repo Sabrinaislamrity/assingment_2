@@ -1,0 +1,928 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared styles */
+/* header{
+    background-color: rgb(247, 247, 247);
+    height:800px;
+} */
+.display_flex{
+    display: flex;
+}
+.text_yello{
+    color: rgb(240, 170, 0);
+}
+.text_purple{
+    color: rgb(135, 0, 255);
+}
+.text_skyblue{
+    color: rgb(100, 200, 255);
+}
+
+
+
+.text_orange{
+color: rgb(254, 163, 1);
+
+}
+.text_blue{
+    color: rgb(1, 172, 253);
+    }
+    .text_nevy{
+        color: rgb(93, 88, 239);
+        }
+
+
+.btn_primary{
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+/* Frame 2 */
+position: static;
+width: 197px;
+height: 50px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+
+
+/* Inside Auto Layout */
+
+margin: 0px 186px;
+border-radius: 12px;
+border: none;
+font-weight: 600;
+line-height: 30px;
+margin-top: -18px;
+text-align: left;
+
+}
+
+
+
+/* navbar related styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.nav_item{
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 15px;
+    
+}
+
+.nav_link{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(5, 212, 223);
+font-family: Quicksand;
+font-size: 1.25rem;
+line-height: 30px;
+text-align: left;/* Facilities */
+width: 80px;
+height: 30px;
+/* Auto layout */
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+
+    
+}
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.logo_h{
+    /* SCHOOL */
+position: absolute;
+width: 129px;
+height: 30px;
+left: 310px;
+top: 14px;
+color: rgb(17, 17, 17);
+font-family: Quicksand;
+font-size: 2rem;
+font-weight: 700;
+line-height: 30px;
+
+}
+
+/* banner related styles */
+.banner{
+
+width: 1158.61px;
+height: 575px;
+left: 141px;
+top: 100px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 50;
+
+margin: 30px 210px;
+/* background-color: rgb(247, 247, 247); */
+
+
+}
+.banner_container{
+    padding-top: 122px;
+}
+.banner_content{
+
+width: 640px;
+height: 331px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding-top: 100px;
+margin: 0px 50px;
+}
+
+.banner_title{
+    font-weight: 700;
+    font-size: 3.5rem;
+ white-space: nowrap;
+
+
+    /* Empowering students from small age towards vision */
+width: 640px;
+height: 183px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+margin: 24px 0px;
+line-height: 61px;
+text-align: left;
+}
+
+.banner_description{
+
+    color: rgb(17, 17, 17);
+font-size: 1.25rem;
+font-weight: 400;
+width: 640px;
+height: 50px;
+gap: 24;
+margin-top: 12px;
+margin-bottom: 24px;
+
+}
+
+.banner_image{
+width: 468.61px;
+height: 650px;
+margin: 0px 50px;
+}
+.btn_front{
+    background: rgb(17, 17, 17);
+
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+/* Frame 2 */
+position: static;
+width: 197px;
+height: 50px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 10px;
+
+
+/* Inside Auto Layout */
+
+margin: 15px 0px;
+border-radius: 12px;
+border: none;
+font-weight: 600;
+line-height: 30px;
+
+text-align: left;
+}
+
+/* Standard Curriculum */
+.standard_curriculum{
+   
+    background-image: url("../assets/bg.png");
+    margin-bottom: 120px;
+}
+.formargin{
+    margin: 30px 210px;
+}
+.standard_contain{
+    text-align: center;
+}
+.standard_title{
+    /* Heading 2 → Standard Curriculum */
+
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 80;
+padding: 60px 0px 60px 0px;
+margin: 80px 0px;
+
+
+color: rgb(0, 0, 0);
+font-size: 2.8rem;
+font-weight: 700;
+line-height: 57.5px;
+text-align: center;
+}
+
+.standard_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.vision_1{
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+
+
+/* Frame 2087325495 */
+position: static;
+width: 367.8px;
+height: 476.78px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 32px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 24px;
+
+
+
+}
+
+.vision_1_imgs{
+    padding-left: 70px;
+}
+
+
+.vision_1 h4{
+/* Heading 4 → Elementary School */
+
+width: 223.27px;
+height: 31.13px;
+left: 72.47px;
+top: 226.37px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+color: rgb(32, 32, 32);
+font-family: Quicksand;
+font-size: 1.2rem;
+font-weight: 700;
+line-height: 30.65px;
+letter-spacing: 0%;
+text-align: center;
+padding-left: 60px;
+
+
+}
+
+.btn_vision{
+text-decoration: none;
+padding-left: 100px;
+font-size: 1rem;
+font-weight: 700;
+line-height: 28.3px;
+
+}
+.btnarrows{
+    display: flex;
+    gap: 10px;
+  margin-left: 660px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.btn_arrow{
+    /* Button - Next slide */
+position: relative;
+width: 60px;
+height: 60px;
+border-radius: 30px;
+
+/* Orange */
+background: rgb(254, 163, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+font-size: 2rem;
+color: white;
+cursor: pointer;
+
+}
+.btn_arrow::after{
+    content: '<';
+    font-size: 2rem;
+    color: white;
+}
+
+.btn_arrow_t{
+     /* Button - Next slide */
+position: relative;
+width: 60px;
+height: 60px;
+border-radius: 30px;
+
+/* Orange */
+background: rgb(254, 163, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+font-size: 2rem;
+color: white;
+cursor: pointer;
+
+}
+
+.btn_arrow_t::after{
+    content: '>';
+    font-size: 2rem;
+    color: white;
+}
+
+/* Our Stories */
+
+.teams{
+    align-items: center;
+  
+    background-image: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+   
+}
+.team_img_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 210px;
+}
+
+.four_imgs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* .our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+
+#quick-list{
+    font-weight: 500;
+} */
+
+.big_img{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    /* Article */
+position: relative;
+width: 540.27px;
+height: 630.52px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+margin-left: 50px;
+
+}
+
+.big_img img{
+    height: auto;
+    width: 100%;
+   border-top-left-radius: 8px ;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 0px ;
+   border-bottom-left-radius:0px ;
+}
+
+     
+#experience_badge{
+    /* Background */
+position: absolute;
+width: 174.51px;
+height: 47.93px;
+left: 38.35px;
+top: 308.14px;
+border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+margin-left: 10px;
+margin-top: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 10px;
+color: rgb(255, 255, 255);
+font-size: 14px;
+border: none;
+}
+
+
+
+
+.big_img_arh{
+/* A fun toddler coloring training on classroom */
+position: absolute;
+width: 402.49px;
+height: 69.98px;
+left: 0;
+top: 300px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+color: rgb(0, 0, 0);
+
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 38.35px;
+
+text-align: left;
+margin: 99px 38px 162px 50px;
+
+
+
+
+
+
+}
+.big_img p{
+
+    /* Beautiful branding for changes by Never Now in Australia. changes is a platform for open discussion in an inclusive and collaborative environment, providing the... */
+position: absolute;
+width: 433.06px;
+height: 75.74px;
+left: 38.35px;
+top: 520.26px;
+display: flex;
+flex-direction: row;
+align-items: center;
+color: rgb(102, 102, 102);
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+
+
+
+}
+
+
+.sizefor{
+    width: 290.69px;
+height: 301.61px;
+}
+
+
+.big_two{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    /* Article */
+position: relative;
+width: 290.69px;
+height: 301.61px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+margin-left: 50px;
+}
+
+.big_two img{
+    height: auto;
+    width: 100%;
+   border-top-left-radius: 8px ;
+   border-top-right-radius: 8px;
+   border-bottom-left-radius: 0px ;
+   border-bottom-left-radius:0px ;
+}
+
+#big_two_btn{
+    position: absolute;
+    width: 174.51px;
+    height: 38.35px;
+    left: 38.35px;
+    top: 152.81px;
+    border-radius: 47.93px;
+    
+    background: rgb(60, 216, 232);
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: none;
+}
+.big_two_arh{
+    /* A fun toddler coloring training on classroom */
+ 
+    width: 214px;
+    height: 57.52px;
+    
+    top: 215.33px;
+    /* Find out if a school fits the family’s needs */
+
+
+
+
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+color: rgb(0, 0, 0);
+
+font-size: 1rem;
+font-weight: 700;
+line-height: 28.76px;
+padding-left:33px;
+padding-top: 10px;
+text-align: left;
+    
+    }
+
+.view_all_btn{
+    /* Frame 3 */
+width: 197px;
+height: 50px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 10px;
+
+
+/* Inside Auto Layout */
+
+margin: 80px 0px;
+border-radius: 12px;
+
+/* Black */
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+margin-left: 600px;
+margin-top: 92px;
+}
+
+/* footer part  */
+.last{
+    background: rgb(1, 172, 253);
+width: 100%;
+height: 519px;
+
+
+}
+
+.last_container{
+   padding-top: 124px;
+   margin: 0px 210px;
+
+}
+
+.last_logos_part_arh{
+    /* Kids Education */
+position: absolute;
+width: 206.11px;
+height: 80px;
+left: 305.6px;
+top: 2780.32px;
+color: rgb(255, 255, 255);
+font-size: 2.6rem;
+font-weight: 700;
+line-height: 39.51px;
+text-align: left;
+}
+
+.last_logos_part_arp{
+    /* Pizza ipsum dolor meat lovers buffalo. Deep dolor roll melted bacon Bianca pan bacon pineapple Aussie. Mayo rib sauce Hawaiian meatball. */
+
+width: 399.02px;
+height: 100px;
+left: 148px;
+top: 2812px;
+
+color: rgb(255, 255, 255);
+
+font-size: 1.5rem;
+font-weight: 400;
+line-height: 25px;
+
+text-align: left;
+}
+
+.next_logo{
+    margin-left: 272px;
+}
+
+.next_logo_arh{
+    /* About School */
+
+width: 156.36px;
+height: 30px;
+left: 719.73px;
+top: 2695px;
+
+color: rgb(255, 255, 255);
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+white-space: nowrap;
+}
+
+.last_item{
+    color: rgb(255, 255, 255);
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+
+/* Home */
+width: 57.87px;
+height: 25px;
+left: 719.73px;
+top: 2757px;
+}
+.three_last{
+    margin-left: 342px;
+}
+.three_last_arh{
+    /* Heading 4 → Keep In Touch */
+width: 177.12px;
+height: 26px;
+left: 1019.25px;
+top: 2699px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+color: rgb(255, 255, 255);
+font-size: 1.625rem;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+}
+
+.last_imges{
+    /* Link */
+gap: 10px;
+width: 40.61px;
+height: 40px;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .dekha,
+    .logo_h,
+    .nav_links,
+    .btnarrows,
+    .big_img{
+        display: none;
+    }
+
+   
+    
+
+  
+
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 30px;
+        margin: 0;
+        width: 100%;
+        
+    }
+
+    .banner_container {
+        flex-direction: column-reverse;
+       align-items: center;
+       text-align: center;
+        padding: 20px;
+        
+      
+    }
+
+    /* .banner_content_img {
+
+
+        margin: 20px 0px;
+    } */
+
+    .banner_content {
+        width: 90%;
+        text-align: left;
+        padding: 20px;
+    }
+    .just_1{
+        padding-left: 87px;
+    }
+    .just_2{
+        padding-left: 320px;
+    }
+    .just_3{
+        padding-left: 270px;
+    }
+    .just_4{
+        padding-left: 341px;
+    }
+
+    .banner_title {
+        font-size: 2rem;
+        line-height: 40px;
+        margin-bottom: 15px;
+        text-align: center;
+        /* width: ; */
+        margin-left: 293px;
+    }
+
+    .banner_description{
+        font-size: 1.1rem;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .banner_image{
+        width: 60%;
+       min-width: 250px;
+
+    }
+
+    .btn_front,
+    .view_all_btn{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    /* Standard Curriculum */
+
+   .standard_curriculum{
+    margin-top: 400px;
+  }
+
+
+    .standard_title{
+        font-size: 2rem ;
+        text-align: center;
+        margin-top: 335px;
+        white-space: nowrap;
+    }
+    
+
+    .standard_container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        margin-left: -218px;
+        gap: 24px;
+        margin-top: -72px;
+    }
+
+    .four_imgs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        margin-left: -205px;
+        gap: 24px;
+        margin-top: -72px;
+    }
+
+    .big_two{
+        margin-left: 0px;
+        width: 180.69px;
+        height: 260.61px;
+
+    }
+
+    .big_two_arh{
+        margin-left: -29px;
+        font-size: 1rem;
+    }
+
+    #big_two_btn{
+        width: 139.51px;
+        height: 38.35px;
+        left: 38.35px;
+        top: 84.81px;
+        margin-left: -23px;
+    }
+
+    .view_all{
+        margin-left: -58px;
+        margin-top: 80px;
+    }
+
+    .last{
+        width: 100%;
+        height: 800px;
+    }
+
+    .last_logos_part{
+        margin-left: -192px;
+    }
+
+
+
+    
+
+    .last_logos_part_arh{
+        padding-top: 889px;
+        margin-left: -199px;
+    }
+
+    .last_logos_part_arp{
+        margin-left: -192px;
+
+    }
+
+    .next_logo_arh{
+        padding-top: 206px;
+        margin-left: -671px;
+
+    }
+
+    .last_links{
+        padding-top: -7px;
+        margin-left: -664px;
+    }
+    .three_last_arh{
+        padding-top: 460px;
+        margin-left: -1006px;
+        white-space: nowrap;
+    }
+
+    .last_imges{
+
+        padding-top: 0px;
+        margin-left: -1012px;
+       
+    }
+
+
+
+ 
+
+
+    
+
+
+
+
+
+}
